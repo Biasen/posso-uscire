@@ -108,7 +108,6 @@ export default [
       MOLISE,
       PUGLIA,
       CAMPANIA,
-      BASILICATA,
     ],
     cities: [],
   },
