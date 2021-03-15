@@ -85,11 +85,18 @@ const zonaRossa = {
 };
 
 export default [
+   {
+    ...zonaRossa,
+    from: "2021/03/07 00:00:00",
+    to: "2021/03/15 23:59:59",
+    regions: [BASILICATA],
+    cities: [],
+  },
   {
     ...zonaRossa,
     from: "2021/03/07 00:00:00",
     to: "2021/03/14 23:59:59",
-    regions: [BASILICATA, MOLISE, CAMPANIA],
+    regions: [MOLISE, CAMPANIA],
     cities: [],
   },
   {
@@ -108,7 +115,6 @@ export default [
       MOLISE,
       PUGLIA,
       CAMPANIA,
-      BASILICATA,
     ],
     cities: [],
   },
